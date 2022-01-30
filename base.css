@@ -10,7 +10,8 @@
     --secondary-color:#1D3557;
     --white-page-background-color:#ffffff;
     /* #f6f8fa; */
-    --text-color:#333333;
+    --text-black-color:#333333;
+    --text-white-color:#ffffffeb;
 }
 
 body{
