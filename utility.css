@@ -1,0 +1,74 @@
+
+/* margin */
+.m-1{
+    /* 8px */
+    margin: 0.5rem; 
+}
+.m-2{
+    /* 16px */
+    margin: 1rem;
+}
+.m-3{
+     /* 24px */
+     margin: 1.5rem;
+}
+.m-4{
+     /* 32px */
+     margin: 2rem;
+}
+.m-5{
+     /* 40px */
+     margin: 2.5rem;
+}
+.m-6{
+     /* 48px */
+     margin: 3rem;
+}
+
+/* padding */
+.p-1{
+    /* 8px */
+    padding: 0.5rem; 
+}
+.p-2{
+    /* 16px */
+    padding: 1rem;
+}
+.p-3{
+     /* 24px */
+     padding: 1.5rem;
+}
+.p-4{
+     /* 32px */
+     padding: 2rem;
+}
+.p-5{
+     /* 40px */
+     padding: 2.5rem;
+}
+.p-6{
+     /* 48px */
+     padding: 3rem;
+}
+
+
+/*Typography - heading */
+h1{
+    font-size:3rem ;
+}
+
+h2{
+   font-size: 2rem;
+}
+
+h3{
+   font-size: 1.5rem;
+}
+h4{
+
+}
+h5{
+
+}
+/*Typography - text */
+

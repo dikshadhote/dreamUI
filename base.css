@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+:root{
+    --primary-color:#63FF97;
+    --secondary-color:#1D3557;
+    --white-page-background-color:#ffffff;
+    /* #f6f8fa; */
+    --text-color:#333333;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
