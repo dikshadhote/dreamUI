@@ -1,0 +1,65 @@
+@import "./base.css";
+@import "./utility.css";
+
+/* Navigation bar */
+.brand-name{
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+.brand-logo{
+    margin-left: 1.6rem;
+    margin-top:1.2rem;
+}
+.nav-bar-hero{
+    display:flex
+}
+.nav-header{
+    background-color: var(--secondary-color) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--text-white-color);
+}
+
+.nav-bar-tabs{
+    display: flex;
+    justify-content: space-around;
+    width:15rem;
+}
+.nav-text{
+    margin-top: 2rem;
+    font-weight: 600;
+}
+.nav-tab-text{
+    color:var(--primary-light-color);
+}
+.nav-tab-text:hover{
+cursor: pointer;
+color: var(--text-white-color);
+ ;
+}
+
+.hero-img{
+    height: 28rem;
+    margin:2rem;
+}
+/* colors */
+.white-background{
+    background-color: var(--text-white-color);
+}
+.orange-theme-color{
+    color: var(--primary-light-color);
+}
+.white-text-color{
+    color:var(--text-white-color) ;
+}
+/* Footer */
+.footer{
+    background-color: var(--secondary-color);
+    height: 8rem;
+    text-align: center;
+}
+
+.footer-text{
+    padding: 0.5rem;
+}
