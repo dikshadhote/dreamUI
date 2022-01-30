@@ -51,7 +51,84 @@
      padding: 3rem;
 }
 
+/* padding-left */
+.pl-1{
+    padding: 0.5rem; 
+}
+.pl-2{
+    padding: 1rem;
+}
+.pl-3{
+     padding: 1.5rem;
+}
+.pl-4{
+     padding: 2rem;
+}
+.pl-5{
+     padding: 2.5rem;
+}
+.pl-6{
+     padding: 3rem;
+}
+/* padding-right */
 
+
+.pr-1{
+    padding: 0.5rem; 
+}
+.pr-2{
+    padding: 1rem;
+}
+.pr-3{
+     padding: 1.5rem;
+}
+.pr-4{
+     padding: 2rem;
+}
+.pr-5{
+     padding: 2.5rem;
+}
+.pr-6{
+     padding: 3rem;
+}
+/* padding-top */
+.pt-1{
+    padding: 0.5rem; 
+}
+.pt-2{
+    padding: 1rem;
+}
+.pt-3{
+     padding: 1.5rem;
+}
+.pt-4{
+     padding: 2rem;
+}
+.pt-5{
+     padding: 2.5rem;
+}
+.pt-6{
+     padding: 3rem;
+}
+/* padding-bottom */
+.pb-1{
+    padding: 0.5rem; 
+}
+.pb-2{
+    padding: 1rem;
+}
+.pb-3{
+     padding: 1.5rem;
+}
+.pb-4{
+     padding: 2rem;
+}
+.pb-5{
+     padding: 2.5rem;
+}
+.pb-6{
+     padding: 3rem;
+}
 /*Typography - heading */
 h1{
     font-size:3rem ;
