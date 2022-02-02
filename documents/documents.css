@@ -1,0 +1,23 @@
+.sidebar-main-container {
+  display: flex;
+}
+.component-list-container {
+  margin-bottom: 1rem;
+  grid-area: sidebar;
+  width: 200px;
+}
+
+.component-list-item {
+  padding: 1rem 2rem;
+  list-style-type: none;
+}
+.component-main-section {
+  grid-area: main;
+}
+
+.component-container {
+  margin: 3rem 5rem;
+  padding: 2rem;
+  border: 1px solid var(--grey-border-color);
+  border-radius: 0.25rem;
+}
