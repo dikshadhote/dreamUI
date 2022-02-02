@@ -2,6 +2,7 @@
 @import "./utility.css";
 
 /* Navigation bar */
+
 .brand-name{
     font-size: 2rem;
     padding-bottom: 0.5rem;
@@ -39,11 +40,40 @@ color: var(--text-white-color);
  ;
 }
 
+/* Hero section */
+
 .hero-img{
     height: 28rem;
     margin:2rem;
 }
+.hero-img-container{
+    display:flex;
+}
+
+.hero-text-container{
+    margin-top: 10rem;
+}
+
+.brand-text{
+font-weight: bold;
+font-size: 1.5rem;
+}
+
+.btn-primary{
+    margin:1rem;
+    padding:0.5rem;
+    background-color: var(--primary-color);
+    border-radius: 0.25rem;
+    border-color:var(--primary-color) ;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    cursor: pointer;
+}
+
+
 /* colors */
+
 .white-background{
     background-color: var(--text-white-color);
 }
@@ -56,7 +86,9 @@ color: var(--text-white-color);
 .white-text-color{
     color:var(--text-white-color) ;
 }
+
 /* Footer */
+
 .footer{
     background-color: var(--secondary-color);
   display: flex;
@@ -75,20 +107,10 @@ color: var(--text-white-color);
     font-size: 2rem;
 }
 .icon-footer:hover{
+    cursor: pointer;
     color: var(--primary-color);
 }
-.hero-img-container{
-    display:flex;
-}
 
-.hero-text-container{
-    margin-top: 10rem;
-}
-
-.brand-text{
-font-weight: bold;
-font-size: 1.5rem;
-}
 .fs-small{
     font-size: 0.8rem;
     text-decoration: none;
@@ -99,14 +121,3 @@ font-size: 1.5rem;
     color:var(--secondary-color);
 }
 
-.btn-primary{
-    margin:1rem;
-    padding:0.5rem;
-    background-color: var(--primary-color);
-    border-radius: 0.25rem;
-    border-color:var(--primary-color) ;
-    font-weight: bold;
-}
-.btn-primary:hover{
-    cursor: pointer;
-}
