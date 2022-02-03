@@ -227,15 +227,49 @@ h3 {
   font-size: 1.5rem;
   font-weight: 600;
 }
-h4 {
-}
-h5 {
-}
+
 /*Typography - text */
 small {
   font-size: 0.8rem;
 }
 
-.fs-1{
-font-size: 1.5rem;
+/* font-size */
+.fs-1 {
+  font-size: 1rem;
+}
+
+.fs-2 {
+  font-size: 1.2rem;
+}
+.fs-3 {
+  font-size: 1.5rem;
+}
+.fs-4 {
+  font-size: 2rem;
+}
+/* colors */
+
+.white-background {
+  background-color: var(--text-white-color);
+}
+.orange-theme-color {
+  color: var(--primary-color);
+}
+.orange-theme-light-color {
+  color: var(--primary-light-color);
+}
+.white-text-color {
+  color: var(--text-white-color);
+}
+.black-text-color {
+  color: var(--text-black-color);
+}
+
+/* font-weight */
+
+.font-weight-bolder {
+  font-weight: 800;
+}
+.font-weight-bold {
+  font-weight: 600;
 }
