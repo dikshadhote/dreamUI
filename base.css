@@ -7,6 +7,7 @@
 
 :root{
     --primary-color:#FFAD00;
+    --primary-light-color:#fdc447;
     --secondary-color:#2f2e41;
     --white-page-background-color:#ffffff;
     --text-black-color:#333333;
@@ -21,3 +22,4 @@ body{
 a{
     text-decoration: none;
 }
+
