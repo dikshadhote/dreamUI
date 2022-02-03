@@ -1,23 +1,35 @@
+@import "./base.css";
+@import "./utility.css";
+
+/* sidebar */
 .sidebar-main-container {
   display: flex;
+  width: 200px;
+  overflow-y: auto;
+  height: 35rem;
 }
 .component-list-container {
   margin-bottom: 1rem;
-  grid-area: sidebar;
-  width: 200px;
+  /* grid-area: sidebar; */
 }
 
 .component-list-item {
   padding: 1rem 2rem;
   list-style-type: none;
 }
-.component-main-section {
-  grid-area: main;
+
+.component-list-item:hover {
+  background-color: var(--primary-light-color);
 }
 
-.component-container {
+/* components-main section */
+
+.component-container{
   margin: 3rem 5rem;
   padding: 2rem;
   border: 1px solid var(--grey-border-color);
   border-radius: 0.25rem;
+  background-color: aqua;
+  width:399px;
+  height: 20px;
 }

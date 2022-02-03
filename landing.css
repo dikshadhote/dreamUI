@@ -73,21 +73,6 @@
   cursor: pointer;
 }
 
-/* colors */
-
-.white-background {
-  background-color: var(--text-white-color);
-}
-.orange-theme-color {
-  color: var(--primary-color);
-}
-.orange-theme-dark-color {
-  color: var(--primary-color);
-}
-.white-text-color {
-  color: var(--text-white-color);
-}
-
 /* Footer */
 
 .footer {
