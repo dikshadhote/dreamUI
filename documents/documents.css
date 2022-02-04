@@ -1,16 +1,20 @@
 @import "./base.css";
 @import "./utility.css";
 
-/* sidebar */
 .sidebar-main-container {
+  display: flex;
+}
+
+/* sidebar */
+.sidebar-container {
   display: flex;
   width: 200px;
   overflow-y: auto;
-  height: 35rem;
+  height: 30rem;
+  margin-right: 2rem;
 }
 .component-list-container {
   margin-bottom: 1rem;
-  /* grid-area: sidebar; */
 }
 
 .component-list-item {
@@ -24,12 +28,11 @@
 
 /* components-main section */
 
-.component-container{
+.component-container {
   margin: 3rem 5rem;
   padding: 2rem;
   border: 1px solid var(--grey-border-color);
   border-radius: 0.25rem;
-  background-color: aqua;
-  width:399px;
+  width: 399px;
   height: 20px;
 }

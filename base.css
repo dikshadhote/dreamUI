@@ -9,7 +9,7 @@
     --primary-color:#FFAD00;
     --primary-light-color:#fdc447;
     --secondary-color:#2f2e41;
-    --white-page-background-color:#ffffff;
+    --white-page-background-color:#ffffffeb;
     --text-black-color:#333333;
     --text-white-color:#ffffffeb;
     --grey-border-color:#9790908a;
@@ -17,6 +17,7 @@
 
 body{
     font-family: 'Nunito Sans', sans-serif;
+    background-color: var(--white-page-background-color);
 }
 
 a{
