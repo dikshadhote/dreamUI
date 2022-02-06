@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../utility.css" />
     <link rel="stylesheet" href="../landing.css" />
     <link rel="stylesheet" href="./documents.css" />
+    <link rel="stylesheet" href="../components/alert.css" />
   </head>
   <body>
     <nav class="nav-header">
@@ -98,26 +99,73 @@
         </div>
       </div>
       <div class="component-main-section">
-        <h2 class="mt-2 main-intro">Introduction</h2>
         <section id="installation" class="component-container">
-            <h3>Installation Guide</h3>
-            <p class="mt-1 lh-1">To use dreamUI in your project,copy the link given below and paste it in the "head" tag of your html,above all other style sheets. </p>
-            <div class="mt-2">
-                <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522dreamUi%2520lnk%2522%253E%250A"
-                style="width: 494px; height: 122px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
-            </div>
-           
+          <h2>Installation Guide</h2>
+          <p class="mt-1 mb-1">
+            To use dreamUI in your project,copy the link given below and paste
+            it in the "head" tag of your html,above all other style sheets.
+          </p>
+          <div class="mt-2">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522dreamUi%2520lnk%2522%253E%250A"
+              style="
+                width: 494px;
+                height: 122px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </section>
-        <section id="alert"></section>
-        <section id="avatar" ></section>
-        <section id="badge" ></section>
-        <section id="button" ></section>
-        <section id="card" ></section>
-        <section id="image" ></section>
-        <section id="input" ></section>
+        <section id="alert" class="component-container">
+          <h2>Alerts</h2>
+          <p class="mt-1 fs-2 grey-text">
+            Alerts are used to attract user's attention.They provide contextual
+            feedback messages without interrupting the normal flow of user.
+          </p>
+          <p class="fs-2 mt-2">Examples:</p>
+          <p class="pt-1">
+            To use alert in your code,use class name
+            <span class="orange-theme-color">alert</span>.
+          </p>
+          <p class="pt-1">
+            To display specific category error message use class name such as
+            <span class="orange-theme-color"
+              >alert-primary, alert-success, alert-error etc.</span
+            >
+          </p>
+          <div class="alert-component-container">
+            <div class="alert alert-primary">
+              <i class="fas fa-exclamation-circle alert-icon"></i>
+              <span>This is primary alert</span>
+            </div>
+            <div class="alert alert-secondary">
+              <i class="fas fa-exclamation-circle alert-icon"></i>
+              <span>This is secondary alert</span>
+            </div>
+            <div class="alert alert-success">
+              <i class="fas fa-check-circle alert-icon"></i>
+              <span>This is success alert</span>
+            </div>
+            <div class="alert alert-warning">
+              <i class="fas fa-exclamation-triangle alert-icon"></i>
+              <span>This is warning alert</span>
+            </div>
+            <div class="alert alert-error">
+              <i class="fas fa-minus-circle alert-icon"></i>
+              <span>This is error alert</span>
+            </div>
+          </div>
+        </section>
+        <section id="avatar"></section>
+        <section id="badge"></section>
+        <section id="button"></section>
+        <section id="card"></section>
+        <section id="image"></section>
+        <section id="input"></section>
       </div>
     </div>
     <footer class="footer footer-docs">
