@@ -13,6 +13,11 @@
     --text-black-color:#333333;
     --text-white-color:#ffffffeb;
     --grey-border-color:#9790908a;
+    --component-primary-color:#ccf2ff;
+    --component-secondary-color:#E2E3E3;
+    --component-warning-color:#ffff99;
+    --component-success-color:#84f1c9;
+    --component-error-color:#ffb3b3;
 }
 
 body{
