@@ -265,8 +265,8 @@ small {
 .black-text-color {
   color: var(--text-black-color);
 }
-.grey-text{
-  color:var(--text-grey-color) ;
+.grey-text {
+  color: var(--text-grey-color);
 }
 /* font-weight */
 
@@ -275,4 +275,10 @@ small {
 }
 .font-weight-bold {
   font-weight: 600;
+}
+
+.code-snippet {
+  background-color: #151718;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
 }
