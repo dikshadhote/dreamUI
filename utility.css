@@ -259,6 +259,8 @@ small {
 .orange-theme-light-color {
   color: var(--primary-light-color);
 }
+
+/* text-color */
 .white-text-color {
   color: var(--text-white-color);
 }
@@ -279,6 +281,6 @@ small {
 
 .code-snippet {
   background-color: #151718;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
+  border-radius: 8px;
+  padding: 8px;
 }
