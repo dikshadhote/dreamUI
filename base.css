@@ -19,6 +19,11 @@
     --component-warning-color:#ffff99;
     --component-success-color:#84f1c9;
     --component-error-color:#ffb3b3;
+    --component-primary-dark:#007bff;
+    --component-secondary-dark:#6c757d;
+    --component-warning-dark:#ffc107;
+    --component-success-dark:#28a745;
+    --component-error-dark:#dc3545;
 }
 
 body{
