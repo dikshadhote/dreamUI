@@ -9,11 +9,12 @@
   text-align: center;
   
 }
-.btn:hover {
+.btn-primary:hover,.btn-secondary:hover,.btn-success:hover,.btn-danger:hover,.btn-warning:hover {
   border: 2px solid var(--grey-border-color);
   box-shadow: 5px 5px var(--grey-border-color);
 }
 
+/* Default buttons */
 .btn-primary {
   background-color: var(--component-primary-color);
 }
@@ -31,6 +32,7 @@
 .btn-warning {
   background-color: var(--component-warning-color);
 }
+
 
 .button-container{
     margin: 2rem 0rem;
