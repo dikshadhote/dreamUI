@@ -1,7 +1,7 @@
 @import "../base.css";
 @import "../utility.css";
 .btn {
-  display:inline-block ;
+  display: inline-block;
   cursor: pointer;
   padding: 8px 1rem;
   margin: 1rem 8px;
@@ -9,9 +9,12 @@
   border: 1px solid transparent;
   text-align: center;
   vertical-align: middle;
-  
 }
-.btn-primary:hover,.btn-secondary:hover,.btn-success:hover,.btn-danger:hover,.btn-warning:hover {
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-success:hover,
+.btn-danger:hover,
+.btn-warning:hover {
   border: 2px solid var(--grey-border-color);
   box-shadow: 5px 5px var(--grey-border-color);
 }
@@ -34,9 +37,79 @@
 .btn-warning {
   background-color: var(--component-warning-color);
 }
+/* Outline buttons */
+.btn-outline-primary {
+  color: #007bff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #007bff;
+}
 
+.btn-outline-primary:hover {
+  color: var(--text-white-color);
+  background-color: #007bff;
+  background-image: none;
+  border-color: #007bff;
+}
+.btn-outline-secondary {
+  color: #6c757d;
+  background-color: transparent;
+  background-image: none;
+  border-color: #6c757d;
+}
 
-.button-container{
-    margin: 2rem 0rem;
-    justify-items: center;
+.btn-outline-secondary:hover {
+  color: var(--text-white-color);
+  background-color: #6c757d;
+  background-image: none;
+  border-color: #6c757d;
+}
+.btn-outline-success {
+  color: #28a745;
+  background-color: transparent;
+  background-image: none;
+  border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+  color: var(--text-white-color);
+  background-color: #28a745;
+  background-image: none;
+  border-color: #28a745;
+}
+.btn-outline-danger {
+  color: #dc3545;
+  background-color: transparent;
+  background-image: none;
+  border-color: #dc3545;
+}
+.btn-outline-danger:hover {
+  color: var(--text-white-color);
+  background-color: #dc3545;
+  background-image: none;
+  border-color: #dc3545;
+}
+
+.btn-outline-warning {
+  color: #ffc107;
+  background-color: transparent;
+  background-image: none;
+  border-color: #ffc107;
+}
+
+.btn-outline-warning:hover {
+  color: var(--text-white-color);
+  background-color: #ffc107;
+  background-image: none;
+  border-color: #ffc107;
+}
+
+/* diable */
+.btn-disable {
+  color: var(--text-black-color);
+  background-color: var(--component-secondary-color);
+}
+.button-container {
+  margin: 2rem 0rem;
+  justify-items: center;
 }
