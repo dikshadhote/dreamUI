@@ -7,10 +7,11 @@
   border-radius: 5px;
   border: 1px solid transparent;
   text-align: center;
-  box-shadow: 5px 5px var(--grey-border-color);
+  
 }
 .btn:hover {
   border: 2px solid var(--grey-border-color);
+  box-shadow: 5px 5px var(--grey-border-color);
 }
 
 .btn-primary {
