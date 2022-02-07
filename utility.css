@@ -1,3 +1,4 @@
+@import "./base.css";
 /* margin */
 .m-1 {
   /* 8px */
@@ -258,13 +259,17 @@ small {
 .orange-theme-light-color {
   color: var(--primary-light-color);
 }
+
+/* text-color */
 .white-text-color {
   color: var(--text-white-color);
 }
 .black-text-color {
   color: var(--text-black-color);
 }
-
+.grey-text {
+  color: var(--text-grey-color);
+}
 /* font-weight */
 
 .font-weight-bolder {
@@ -272,4 +277,10 @@ small {
 }
 .font-weight-bold {
   font-weight: 600;
+}
+
+.code-snippet {
+  background-color: #151718;
+  border-radius: 8px;
+  padding: 8px;
 }
