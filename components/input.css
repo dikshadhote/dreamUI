@@ -21,3 +21,10 @@
 .password-margin {
   margin-left: 8rem;
 }
+
+.form-check-input {
+    width: 1rem;
+    height: 1rem;
+    margin:5px;
+    border:1px solid var(--grey-border-color);
+}
