@@ -1,0 +1,16 @@
+@import "../base.css";
+@import "../utility.css";
+
+.badge-container{
+background-color: var( --component-warning-color);
+padding: 1rem 2.5rem;
+border-radius: 4px;
+}
+
+.badge-parent{
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+}
