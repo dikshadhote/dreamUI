@@ -1,0 +1,23 @@
+@import "../base.css";
+@import "../utility.css";
+.input-container {
+  background-color: var(--component-primary-color);
+  padding: 1rem 2.5rem;
+  border-radius: 4px;
+}
+.input {
+  padding: 5px;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.input-error {
+  border: 2px solid var(--component-error-dark);
+}
+.text-red {
+  color: var(--component-error-dark);
+}
+.password-margin {
+  margin-left: 8rem;
+}
