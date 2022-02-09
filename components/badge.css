@@ -27,14 +27,19 @@ border-radius: 4px;
     width:1.5rem;
     height:1.5rem;
     font-weight: bold;
+  
+}
+.position-small-text{
     top:0;
     right:38.1rem;
 }
-
 .large-badge{
     width:2rem;
     height:2rem;
     font-weight: bold; 
+  
+}
+.position-large-text{
     top:0;
     right:37.2rem;
 }
