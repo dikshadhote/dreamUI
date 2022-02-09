@@ -7,6 +7,7 @@
   margin: 1rem;
   padding: 1rem;
   background-color: var(--component-warning-color);
+  border-radius: 8px;
 }
 
 .avatar {
