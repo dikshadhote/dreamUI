@@ -10,7 +10,7 @@
   display: flex;
   width: 200px;
   overflow-y: auto;
-  height: 34rem;
+  height: 33rem;
   margin-right: 2rem;
 }
 .component-list-container {

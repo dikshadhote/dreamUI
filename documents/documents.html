@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../components/alert.css" />
     <link rel="stylesheet" href="../components/button.css" />
     <link rel="stylesheet" href="../components/input.css" />
+    <link rel="stylesheet" href="../components/badge.css" />
   </head>
   <body>
     <nav class="nav-header">
@@ -177,7 +178,31 @@
           </div>
         </section>
         <section id="avatar"></section>
-        <section id="badge"></section>
+        <section id="badge" class="component-container">
+          <h2>Badge</h2>
+          <p class="mt-1 fs-2 grey-text">
+            Badges are used to display number of notifications you got from an
+            app or for giving status information such as online,offline etc.
+          </p>
+          <p class="fs-2 mt-2 font-weight-bold">Text with badge</p>
+          <p class="pt-1 ml-1">
+            Use <span class="orange-theme-color">notification-badge</span> class
+          </p>
+          <div class="badge-container mt-2">
+            <p class="badge-parent m-1 p-1">
+              Text with a small badge
+              <span class="badge small-badge persian-blue-bg white-text-color">
+                <small class="text-small">4</small>
+              </span>
+            </p>
+            <p class="badge-parent m-1 p-1">
+              Text with a Large badge
+              <span class="badge large-badge persian-blue-bg white-text-color">
+                <small>99+</small>
+              </span>
+            </p>
+          </div>
+        </section>
         <section id="button" class="component-container">
           <h2>Buttons</h2>
           <p class="mt-1 fs-2 grey-text">
@@ -280,7 +305,10 @@
             Label Input has a label present at the top of the input field.They
             can also be customized to show error-message.
           </p>
-          <p class="pt-1 ml-1">Use <span class="orange-theme-color">input,input-error</span> for default and error styling respectively.</p>
+          <p class="pt-1 ml-1">
+            Use <span class="orange-theme-color">input,input-error</span> for
+            default and error styling respectively.
+          </p>
           <div class="input-container mt-2 ml-1">
             <label for="input-label">Email *</label>
             <input
@@ -326,7 +354,10 @@
           </div>
           <p class="fs-2 mt-4 font-weight-bold">Radio inputs</p>
           <p class="pt-1 ml-1">
-            Radio buttons are used to select one option from number of choices.Use <span class="orange-theme-color">form-check-input</span> for basic styling
+            Radio buttons are used to select one option from number of
+            choices.Use
+            <span class="orange-theme-color">form-check-input</span> for basic
+            styling
           </p>
           <div class="input-container mt-2 ml-1">
             <input
@@ -364,7 +395,9 @@
           <p class="fs-2 mt-4 font-weight-bold">Checkbox inputs</p>
           <p class="pt-1 ml-1">
             Checkbox is used to select one or more option from number of
-            choices.Use <span class="orange-theme-color">form-check-input</span> for basic styling
+            choices.Use
+            <span class="orange-theme-color">form-check-input</span> for basic
+            styling
           </p>
           <div class="input-container mt-2 ml-1">
             <input
