@@ -265,6 +265,9 @@ small {
 .persian-blue-bg{
   background-color: var(--persian-blue);
 }
+.green-bg-dark{
+  background-color: var(--component-success-dark);
+}
 /* text-color */
 .white-text-color {
   color: var(--text-white-color);
@@ -288,4 +291,8 @@ small {
   background-color: #151718;
   border-radius: 8px;
   padding: 8px;
+}
+.flex-justify-around{
+  display: flex;
+  justify-content: space-around;
 }
