@@ -256,10 +256,15 @@ small {
 .orange-theme-color {
   color: var(--primary-color);
 }
+.orange-bg{
+  background-color: var(--primary-color);
+}
 .orange-theme-light-color {
   color: var(--primary-light-color);
 }
-
+.persian-blue-bg{
+  background-color: var(--persian-blue);
+}
 /* text-color */
 .white-text-color {
   color: var(--text-white-color);
