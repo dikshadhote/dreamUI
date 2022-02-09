@@ -1,39 +1,40 @@
 @import "../base.css";
 @import "../utility.css";
 
-.badge-container {
-  background-color: var(--component-warning-color);
-  padding: 1rem 2.5rem;
-  border-radius: 4px;
+.badge-container{
+background-color: var( --component-warning-color);
+padding: 1rem 0rem 1rem 1rem;
+border-radius: 4px;
 }
 
-.badge-parent {
-  position: relative;
-  padding: 1rem;
-  /* border-radius: 50%; */
+.badge-parent{
+    position: relative;
+    padding:1rem;
+    /* border-radius: 50%; */
+    
 }
 
-.badge {
-  position: absolute;
-  padding: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
+.badge{
+    position: absolute;
+    padding:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 
-.small-badge {
-  width: 1.5rem;
-  height: 1.5rem;
-  font-weight: bold;
-  top: 0;
-  right: 34.3rem;
+.small-badge{
+    width:1.5rem;
+    height:1.5rem;
+    font-weight: bold;
+    top:0;
+    right:38.1rem;
 }
 
-.large-badge {
-  width: 2rem;
-  height: 2rem;
-  font-weight: bold;
-  top: 0;
-  right: 33.4rem;
+.large-badge{
+    width:2rem;
+    height:2rem;
+    font-weight: bold; 
+    top:0;
+    right:37.2rem;
 }
