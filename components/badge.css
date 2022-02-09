@@ -43,3 +43,35 @@ border-radius: 4px;
     top:0;
     right:37.2rem;
 }
+
+/* badge icons */
+.material-icons.icon{
+    font-size: 3rem;
+}
+.icon{
+    position: relative;
+}
+.position-mail-badge{
+   position: absolute;
+   top:-8px;
+   right: -7px;
+    font-size: 1rem;
+    color:black;
+    font-weight:bold;
+    padding: 5px;
+}
+
+.position-cart-badge{
+    position: absolute;
+    top:-12px;
+    right: -7px;
+     font-size: 1rem;
+     color:black;
+     font-weight:bold;
+     padding: 5px;
+}
+
+.badge .number{
+    color: black!important;
+    background-color: blanchedalmond;
+}
