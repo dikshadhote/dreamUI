@@ -10,8 +10,10 @@
   display: flex;
   width: 200px;
   overflow-y: auto;
-  height: 34rem;
+  height: 40rem;
   margin-right: 2rem;
+  position: sticky;
+  top:0rem;
 }
 .component-list-container {
   margin-bottom: 1rem;
