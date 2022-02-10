@@ -3,8 +3,10 @@
 
 .badge-container {
   background-color: var(--component-warning-color);
-  padding: 1rem 0rem 1rem 1rem;
-  border-radius: 4px;
+  /* padding: 1rem 0rem 1rem 1rem; */
+  margin:1rem;
+  padding: 1rem;
+  border-radius: 8px;
 }
 
 .badge-parent {
@@ -29,7 +31,7 @@
 }
 .position-small-text {
   top: -8px;
-  right: 38.6rem;
+  right: 36.6rem;
 }
 .large-badge {
   width: 2rem;
@@ -38,7 +40,7 @@
 }
 .position-large-text {
   top:-14px;
-  right: 37.9rem;
+  right: 35.9rem;
 }
 
 /* badge icons */
