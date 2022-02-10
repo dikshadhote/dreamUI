@@ -28,8 +28,8 @@
   font-weight: bold;
 }
 .position-small-text {
-  top: 0;
-  right: 38.1rem;
+  top: -8px;
+  right: 38.6rem;
 }
 .large-badge {
   width: 2rem;
@@ -37,8 +37,8 @@
   font-weight: bold;
 }
 .position-large-text {
-  top: 0;
-  right: 37.2rem;
+  top:-14px;
+  right: 37.9rem;
 }
 
 /* badge icons */
