@@ -75,3 +75,9 @@
 .material-icons.icon-size {
   font-size: 3rem;
 }
+
+/* avatar badge */
+.avt-bdg-position{
+    bottom:1.5rem;
+    right:1.5rem;
+}
