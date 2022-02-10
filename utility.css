@@ -268,6 +268,12 @@ small {
 .green-bg-dark{
   background-color: var(--component-success-dark);
 }
+.grey-bg{
+background-color: var(--component-secondary-dark);
+}
+.red-bg{
+  background-color: var(--component-error-dark);
+}
 /* text-color */
 .white-text-color {
   color: var(--text-white-color);
