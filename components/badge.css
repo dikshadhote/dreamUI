@@ -1,77 +1,77 @@
 @import "../base.css";
 @import "../utility.css";
 
-.badge-container{
-background-color: var( --component-warning-color);
-padding: 1rem 0rem 1rem 1rem;
-border-radius: 4px;
+.badge-container {
+  background-color: var(--component-warning-color);
+  padding: 1rem 0rem 1rem 1rem;
+  border-radius: 4px;
 }
 
-.badge-parent{
-    position: relative;
-    padding:1rem;
-    /* border-radius: 50%; */
-    
+.badge-parent {
+  position: relative;
+  padding: 1rem;
+  /* border-radius: 50%; */
 }
 
-.badge{
-    position: absolute;
-    padding:5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
+.badge {
+  position: absolute;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 
-.small-badge{
-    width:1.5rem;
-    height:1.5rem;
-    font-weight: bold;
-  
+.small-badge {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-weight: bold;
 }
-.position-small-text{
-    top:0;
-    right:38.1rem;
+.position-small-text {
+  top: 0;
+  right: 38.1rem;
 }
-.large-badge{
-    width:2rem;
-    height:2rem;
-    font-weight: bold; 
-  
+.large-badge {
+  width: 2rem;
+  height: 2rem;
+  font-weight: bold;
 }
-.position-large-text{
-    top:0;
-    right:37.2rem;
+.position-large-text {
+  top: 0;
+  right: 37.2rem;
 }
 
 /* badge icons */
-.material-icons.icon{
-    font-size: 3rem;
+.material-icons.icon {
+  font-size: 3rem;
 }
-.icon{
-    position: relative;
-}
-.position-mail-badge{
-   position: absolute;
-   top:-8px;
-   right: -7px;
-    font-size: 1rem;
-    color:black;
-    font-weight:bold;
-    padding: 5px;
+.icon-container {
+  position: relative;
 }
 
-.position-cart-badge{
-    position: absolute;
-    top:-12px;
-    right: -7px;
-     font-size: 1rem;
-     color:black;
-     font-weight:bold;
-     padding: 5px;
+.position-mail-badge {
+  position: absolute;
+  top: -8px;
+  right: -7px;
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
 }
 
-.badge .number{
-    color: black!important;
-    background-color: blanchedalmond;
+.position-cart-badge {
+  position: absolute;
+  top: -12px;
+  right: -7px;
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.badge .number {
+  color: black;
+}
+.material-icons.icon-size {
+  font-size: 3rem;
 }
