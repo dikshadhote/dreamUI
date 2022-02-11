@@ -1,7 +1,7 @@
 @import "../base.css";
 @import "../utility.css";
 .input-container {
-  background-color: var(--component-primary-color);
+  background-color: var( --component-warning-color);
   padding: 1rem 2.5rem;
   border-radius: 4px;
 }

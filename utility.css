@@ -256,10 +256,24 @@ small {
 .orange-theme-color {
   color: var(--primary-color);
 }
+.orange-bg{
+  background-color: var(--primary-color);
+}
 .orange-theme-light-color {
   color: var(--primary-light-color);
 }
-
+.persian-blue-bg{
+  background-color: var(--persian-blue);
+}
+.green-bg-dark{
+  background-color: var(--component-success-dark);
+}
+.grey-bg{
+background-color: var(--component-secondary-dark);
+}
+.red-bg{
+  background-color: var(--component-error-dark);
+}
 /* text-color */
 .white-text-color {
   color: var(--text-white-color);
@@ -284,3 +298,7 @@ small {
   border-radius: 8px;
   padding: 8px;
 }
+.flex-justify-around{
+  display: flex;
+  justify-content: space-around;
+} 
