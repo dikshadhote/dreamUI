@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../components/button.css" />
     <link rel="stylesheet" href="../components/input.css" />
     <link rel="stylesheet" href="../components/badge.css" />
+    <link rel="stylesheet" href="../components/image.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -449,7 +450,41 @@
             </div>
           </div>
         </section>
-        <section id="image"></section>
+        <section id="image" class="component-container">
+          <h2>Images</h2>
+          <p class="mt-1 fs-2 grey-text">
+            Images can be responsive to fit the parent's width, and also can be customised to be round shaped.
+          </p>
+          <p class="fs-2 mt-2 font-weight-bold">Responsive Image</p>
+          <p class="pt-1 ml-1">
+            Use <span class="orange-theme-color">responsive-img </span>to make image width same as parent container.If you have to change the height change aspect ratio by cropping image.
+          </p>
+          <div class="mt-1 ">
+            <img class="responsive-img p-1" src="../assets/img_nature_wide.jpg">
+          </div>
+          <div class="mt-2 ml-1 code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2821%2C23%2C24%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mt-1%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522responsive-img%2520p-1%2522%2520src%253D%2522..%252Fassets%252Fimg_nature_wide.jpg%2522%253E%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 772px; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+          <p class="fs-2 mt-2 font-weight-bold">Round Image</p>
+          <p class="pt-1 ml-1">
+            Use <span class="orange-theme-color">round-img</span> to make images round.
+          </p>
+          <div class="mt-1 d-flex flex-justify-center">
+            <img class="round-img p-1" src="../assets/anime_cute_150.png">
+          </div>
+          
+          <div class="mt-2 ml-1 code-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2821%2C23%2C24%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mt-1%2520d-flex%2520flex-justify-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522round-img%2520p-1%2522%2520src%253D%2522..%252Fassets%252Fanime_cute_150.png%2522%253E%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 704px; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+        </section>
         <section id="input" class="component-container">
           <h2>Inputs</h2>
           <p class="mt-1 fs-2 grey-text">
