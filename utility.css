@@ -302,3 +302,8 @@ background-color: var(--component-secondary-dark);
   display: flex;
   justify-content: space-around;
 } 
+
+.flex-justify-center{
+  display: flex;
+  justify-content: center;
+} 
