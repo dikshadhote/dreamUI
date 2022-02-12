@@ -298,12 +298,13 @@ background-color: var(--component-secondary-dark);
   border-radius: 8px;
   padding: 8px;
 }
-.flex-justify-around{
+.d-flex{
   display: flex;
+}
+.flex-justify-around{
   justify-content: space-around;
 } 
 
 .flex-justify-center{
-  display: flex;
   justify-content: center;
 } 
