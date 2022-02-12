@@ -9,10 +9,16 @@
     padding: 1rem;
     margin: 1rem;
     word-wrap: break-word;
-    box-shadow:  0 6px 1.25rem 0 var(--black-box-shadow);
+    background-color: var(--white-page-background-color);
+    color: var(--black-text-color);
 
 }
-
+.card-container{
+    background-color: var(--component-warning-color);
+}
+.card-shadow{
+    box-shadow:  0 6px 1.25rem 0 var(--black-box-shadow);
+}
 .card-title{
     margin-bottom: 0.75rem;
 }
@@ -29,3 +35,4 @@
 .w-text-only{
     width: 20rem;
 }
+
