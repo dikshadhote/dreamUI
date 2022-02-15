@@ -4,6 +4,7 @@
 
 .card-container{
     background-color: var(--component-warning-color);
+    border-radius: 10px;
 }
 .card{
     position: relative;
