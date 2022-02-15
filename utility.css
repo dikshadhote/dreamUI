@@ -256,22 +256,22 @@ small {
 .orange-theme-color {
   color: var(--primary-color);
 }
-.orange-bg{
+.orange-bg {
   background-color: var(--primary-color);
 }
 .orange-theme-light-color {
   color: var(--primary-light-color);
 }
-.persian-blue-bg{
+.persian-blue-bg {
   background-color: var(--persian-blue);
 }
-.green-bg-dark{
+.green-bg-dark {
   background-color: var(--component-success-dark);
 }
-.grey-bg{
-background-color: var(--component-secondary-dark);
+.grey-bg {
+  background-color: var(--component-secondary-dark);
 }
-.red-bg{
+.red-bg {
   background-color: var(--component-error-dark);
 }
 /* text-color */
@@ -300,57 +300,55 @@ background-color: var(--component-secondary-dark);
 }
 
 /* flex */
-.d-flex{
+.d-flex {
   display: flex;
 }
-.flex-row{
+.flex-row {
   flex-direction: row;
 }
-.flex-column{
+.flex-column {
   flex-direction: column;
 }
 
 /* justify-content */
-.flex-justify-start{
-justify-content: start;
+.flex-justify-start {
+  justify-content: start;
 }
 
-.flex-justify-end{
+.flex-justify-end {
   justify-content: end;
 }
 
-.flex-justify-around{
+.flex-justify-around {
   justify-content: space-around;
-} 
+}
 
-.flex-justify-center{
+.flex-justify-center {
   justify-content: center;
-} 
+}
 
-.flex-justify-space-between{
+.flex-justify-space-between {
   justify-content: space-between;
 }
 
-
-
 /* align items */
 
-.align-items-start{
+.align-items-start {
   align-items: start;
-  }
-  
-  .align-items-end{
-    align-items: end;
-  }
-  
-  .align-items-baseline{
-    align-items: baseline;
-  } 
-  
-  .align-items-center{
-    align-items: center;
-  } 
-  
-  .align-items-stretch{
-    align-items: stretch;
-  }
+}
+
+.align-items-end {
+  align-items: end;
+}
+
+.align-items-baseline {
+  align-items: baseline;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-stretch {
+  align-items: stretch;
+}
