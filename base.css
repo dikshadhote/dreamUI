@@ -14,6 +14,7 @@
     --text-white-color:#ffffffeb;
     --text-grey-color:#605d5d;
     --grey-border-color:#9790908a;
+    --black-box-shadow:#00000030;
     --component-primary-color:#9edff5;
     --component-secondary-color:#E2E3E3;
     --component-warning-color:#ffff99;
@@ -25,6 +26,7 @@
     --component-success-dark:#28a745;
     --component-error-dark:#dc3545;
     --persian-blue:#1b2470;
+    --card-border-color:#ececec;
 }
 
 body{
