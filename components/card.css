@@ -102,8 +102,8 @@ padding:0 1rem 1rem 1rem;
 .add-to-fav{
     top:10px;
     right:-15px;
-    width:35px;
-    height:35px;
+    width:2.25rem;
+    height:2.25rem;
     background-color: var( --white-page-background-color);
     
 }
@@ -115,4 +115,16 @@ padding:0 1rem 1rem 1rem;
 
 .icon-red:hover{
     color:var(--black-text-color);
+}
+
+.cancel-card{
+    top:5px;
+    right:5px;
+    width:2.25rem;
+    height:2.25rem;    
+}
+
+.cancel-card:hover{
+    cursor: pointer;
+    background-color: var(--white-page-background-color);
 }
