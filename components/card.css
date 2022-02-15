@@ -128,3 +128,26 @@ padding:0 1rem 1rem 1rem;
     cursor: pointer;
     background-color: var(--white-page-background-color);
 }
+
+/* overlay card */
+
+.card-overlay{
+    position:absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background-color: var(--card-border-color);
+    opacity: 0.8;
+}
+.overlay-card-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    color:var(--component-error-dark)
+}
+.badge-overlay{
+    position:absolute;
+    right:5px;
+    top:5px;
+}
