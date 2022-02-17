@@ -44,3 +44,11 @@
 .main-intro{
     margin-left: 4.8rem;
 }
+
+/* iframe */
+
+.code-snippet iframe{
+  width:100%;
+  height: auto;
+  border:1px solid transparent;
+}
