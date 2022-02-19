@@ -775,36 +775,30 @@
             Use <span class="orange-theme-color">input,input-error</span> for
             default and error styling respectively.
           </p>
-          <div class="input-container mt-2 ml-1">
-            <label for="input-label">Email *</label>
-            <input
-              class="input"
-              id="input-label"
-              placeholder="you@example.com"
-            />
+          <div class="input-container mt-2 ml-1 d-flex flex-column">
+            <label for="input-label" class="ml-2 input-label">Email</label>       
+            <input class="input" id="input-label" placeholder="you@example.com"/>      
+       </div>
+          
+          <div class="mt-2 ml-1 code-snippet">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2821%2C23%2C24%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2520mt-2%2520ml-1%2520d-flex%2520flex-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522input-label%2522%2520class%253D%2522ml-2%2520input-label%2522%253EEmail%253C%252Flabel%253E%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520id%253D%2522input-label%2522%2520placeholder%253D%2522you%2540example.com%2522%252F%253E%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+            style="width: 780px; height: 150px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+
+          <div class="input-container mt-2 ml-1 d-flex flex-column">
+            <label class="ml-2 input-label" for="inp-password">Password</label>
+            <input id="inp-password" class="input input-error"  placeholder="*******" />
+            <small class="text-red ml-2">Forgot your password?</small>
           </div>
           <div class="mt-2 ml-1 code-snippet">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%2821%2C23%2C24%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522input-label%2522%253EEmail%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520%2520class%253D%2522input%2522%2520id%253D%2522input-label%2522%2520placeholder%253D%2522you%2540example.com%2522%252F%253E%2520"
-             
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
-
-          <div class="input-container mt-2 ml-1">
-            <label>Password *</label>
-            <input id="inp-password" class="input input-error" />
-
-            <p class="text-red password-margin">Forgot your password?</p>
-          </div>
-          <div class="mt-2 ml-1 code-snippet">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%2821%2C23%2C24%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EPassword%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522inp-password%2522%2520class%253D%2522input%2520input-error%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-red%2520password-margin%2522%253EForgot%2520your%2520password%253F%253C%252Fp%253E%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-             
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
+  src="https://carbon.now.sh/embed?bg=rgba%2821%2C23%2C24%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2520mt-2%2520ml-1%2520d-flex%2520flex-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522ml-2%2520input-label%2522%2520for%253D%2522inp-password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522inp-password%2522%2520class%253D%2522input%2520input-error%2522%2520%2520placeholder%253D%2522*******%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522text-red%2520ml-2%2522%253EForgot%2520your%2520password%253F%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+  style="width: 813px; height: 169px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
           </div>
           <p class="fs-2 mt-4 font-weight-bold">Radio inputs</p>
           <p class="pt-1 ml-1">
