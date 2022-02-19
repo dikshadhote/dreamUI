@@ -21,6 +21,7 @@
 }
 .text-red {
   color: var(--component-error-dark);
+  font-weight: 600;
 }
 .password-margin {
   margin-left: 8rem;
