@@ -2,7 +2,7 @@
 @import "../utility.css";
 
 .badge-container {
-  background-color: var(--component-warning-color);
+  background-color: var( --component-secondary-color);
   /* padding: 1rem 0rem 1rem 1rem; */
   margin:1rem;
   padding: 1rem;
