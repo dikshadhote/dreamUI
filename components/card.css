@@ -119,6 +119,9 @@
   cursor: pointer;
   background-color: var(--component-error-color);
 } 
+.add-to-wishlist{
+  cursor: pointer;
+}
 
 .icon-red:hover {
   color: var(--black-text-color);
