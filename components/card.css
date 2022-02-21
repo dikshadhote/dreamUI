@@ -114,10 +114,11 @@
   background-color: var(--white-page-background-color);
 }
 
+ 
 .add-to-fav:hover {
   cursor: pointer;
   background-color: var(--component-error-color);
-}
+} 
 
 .icon-red:hover {
   color: var(--black-text-color);
