@@ -114,10 +114,11 @@
   background-color: var(--white-page-background-color);
 }
 
+ 
 .add-to-fav:hover {
   cursor: pointer;
   background-color: var(--component-error-color);
-}
+} 
 
 .icon-red:hover {
   color: var(--black-text-color);
@@ -156,4 +157,10 @@
   position: absolute;
   right: 5px;
   top: 5px;
+}
+
+.inc-dec-btn{
+  padding: 0 5px;
+  cursor:pointer;
+  font-weight: 600;
 }
