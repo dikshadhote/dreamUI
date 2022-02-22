@@ -216,16 +216,36 @@
 /*Typography - heading */
 h1 {
   font-size: 3rem;
+  line-height: 4rem;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
+  line-height: 3.5rem;
 }
 
 h3 {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 600;
+}
+h4{
   font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+
+h5{
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  font-weight: 600;
+}
+
+h6{
+  font-size: 1.08rem;
+  line-height: 2.08rem;
   font-weight: 600;
 }
 
