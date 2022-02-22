@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../components/card.css" />
     <link rel="stylesheet" href="../components/navigation.css" />
     <link rel="stylesheet" href="../components/typography.css" />
+    <link rel="stylesheet" href="../components/snackbar.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -114,7 +115,7 @@
               <a class="fs-2 black-text-color" href="#navigation">Navigation</a>
             </li>
             <li class="component-list-item">
-              <a class="fs-2 black-text-color" href="#snackbar">Snackbar</a>
+              <a class="fs-2 black-text-color" href="#Snackbar">Snackbar</a>
             </li>
           </ul>
         </div>
@@ -1013,7 +1014,33 @@
             </iframe>
           </div>
         </section>
-        <section id="Snackabar"></section>
+        <section id="Snackbar" class="component-container snackbar-component">
+          <p class="fs-2 mt-4 font-weight-bold">Snackbar</p>
+          <p class="pt-1 ml-1">
+            Snackbar is to used show message that need user action.Use
+            <span class="orange-theme-color">snackbar ,snackbar-stacked</span> to show action messages
+          </p>
+           <div>
+            <div class="snackbar red-bg  mt-2">
+              <p>Can't send a photo.Retry in 5 seconds.</p>
+              <button class="snackbar-btn p-1 font-weight-bold" >RETRY</button>
+              <span class="close-icon">X</span>
+          </div>
+          <div class="snackbar green-bg-dark mt-2">
+            <p>Your photo has been archieved.</p>
+            <button class="snackbar-btn p-1 font-weight-bold">UNDO</button>
+            <span class="close-icon">X</span>
+        </div>
+        <div class=" snackbar-stacked persian-blue-bg mt-2">
+            <p>This item already has the label "travel". You can add a new label.</p>
+            <div class="d-flex flex-justify-end align-items-center p-1">
+                <button class="snackbar-btn p-1 mt-1 mr-2 font-weight-bold">ADD A NEW LABEL</button>
+                 <span class="close-icon mr-1">X</span>
+            </div>
+            
+        </div>
+          </div>
+        </section>
       </div>
     </div>
     <footer class="footer footer-docs">
