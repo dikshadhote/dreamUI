@@ -294,6 +294,12 @@ small {
 .red-bg {
   background-color: var(--component-error-dark);
 }
+
+.light-red-bg{
+  background-color: var( --component-error-color);
+}
+
+
 /* text-color */
 .white-text-color {
   color: var(--text-white-color);
