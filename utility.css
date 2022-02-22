@@ -313,6 +313,12 @@ small {
   font-weight: 600;
 }
 
+.font-weight-regular{
+ font-weight: 400;
+}
+.font-weight-light{
+  font-weight: 300;
+}
 .code-snippet {
   background-color: #151718;
   border-radius: 8px;
