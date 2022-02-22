@@ -320,7 +320,7 @@ small {
   font-weight: 300;
 }
 .code-snippet {
-  background-color: #151718;
+  background-color: var(--code-snippet-black) ;
   border-radius: 8px;
   padding: 8px;
 }
