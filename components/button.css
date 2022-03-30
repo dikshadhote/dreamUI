@@ -113,3 +113,26 @@
   margin: 2rem 0rem;
   justify-items: center;
 }
+
+/* Link button */
+.btn-link {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: initial;
+}
+
+.btn-link-primary {
+  text-decoration-color: var(--primary-color);
+}
+
+.btn-link-secondary {
+  text-decoration-color: var(--persian-blue);
+}
+
+.btn-link-primary:hover {
+  color: var(--primary-color);
+}
+
+.btn-link-secondary:hover {
+  color: var(--persian-blue);
+}
