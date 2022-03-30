@@ -160,3 +160,15 @@
 .btn-float:focus {
   box-shadow: 0 6px 2rem 0 var(--component-primary-color);
 }
+
+/* Icon button */
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  color: var(--white-page-background-color);
+}
+
+.black-bg {
+  background-color: var(--code-snippet-black);
+}
