@@ -136,3 +136,27 @@
 .btn-link-secondary:hover {
   color: var(--persian-blue);
 }
+
+/* Action Floating button */
+.btn-round {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+
+.btn-float {
+  box-shadow: 0 6px 1.25rem 0 var(--black-box-shadow);
+  background-color: var(--persian-blue);
+  padding: 0.5rem;
+  margin: 1rem;
+  border: 1px solid transparent;
+  color: var(--white-page-background-color);
+}
+
+.btn-float :hover {
+  cursor: pointer;
+}
+
+.btn-float:focus {
+  box-shadow: 0 6px 2rem 0 var(--component-primary-color);
+}
