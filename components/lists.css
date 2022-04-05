@@ -1,0 +1,11 @@
+.normal-uo-list li {
+  padding-bottom: 1rem;
+}
+
+.square-bullet-list li {
+  list-style-type: square;
+}
+
+.ring-bullet-list li {
+  list-style-type: circle;
+}
