@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../components/navigation.css" />
     <link rel="stylesheet" href="../components/typography.css" />
     <link rel="stylesheet" href="../components/snackbar.css" />
+    <link rel="stylesheet" href="../components/lists.css"/>
     <link rel="stylesheet" href="../dreamui-v1.css"/>
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -111,6 +112,9 @@
             </li>
             <li class="component-list-item">
               <a class="fs-2 black-text-color" href="#input">Input</a>
+            </li>
+            <li class="component-list-item">
+              <a class="fs-2 black-text-color" href="#lists">Lists</a>
             </li>
             <li class="component-list-item">
               <a class="fs-2 black-text-color" href="#navigation">Navigation</a>
@@ -1110,7 +1114,49 @@
             </iframe>
           </div>
         </section>
-        <section id="text-utility"></section>
+        <section id="lists" class="component-container">
+          <h2> Lists</h2>
+          <p class="mt-1 fs-2 grey-text">
+            Lists destructures the UI in more readable format.
+          </p>
+          <p class="fs-2 mt-4 font-weight-bold">Unordered Lists</p>
+          <p class="pt-1 ml-1">
+            Use
+            <span class="orange-theme-color">normal-uo-list,square-bullet-list,ring-bullet-list</span> with li selector like this <span class="orange-theme-color">.square-bullet-list li{}</span> to give specific styling
+          </p>
+          <div class=" mt-2 ml-1 d-flex flex-justify-around">
+          <p class="pb-2 font-weight-bold">Normal Spaced list</p>
+          <p class="pb-2 font-weight-bold">Square Bullet list</p>
+          <p class="pb-2 font-weight-bold">Circle Bullet list</p>
+        </div>
+          <div class="input-container mt-1 ml-1 d-flex flex-justify-around">
+            
+            <ul class="normal-uo-list"> 
+              <li>list item1</li>
+              <li>list item2</li>
+              <li>list item3</li>
+            </ul>
+           
+            <ul class=" normal-uo-list square-bullet-list"> 
+              <li>list item1</li>
+              <li>list item2</li>
+              <li>list item3</li>
+            </ul>
+            
+            <ul class=" normal-uo-list ring-bullet-list"> 
+              <li>list item1</li>
+              <li>list item2</li>
+              <li>list item3</li>
+            </ul>
+            
+          </div>
+          <div class="mt-2 ml-1 code-snippet">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2821%2C23%2C24%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=100px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522normal-uo-list%2522%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522%2520normal-uo-list%2520square-bullet-list%2522%253E%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522%2520normal-uo-list%2520ring-bullet-list%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+        </section>
         <section id="navigation" class="component-container">
           <h2>Navigation</h2>
           <p class="mt-1 fs-2 grey-text">
