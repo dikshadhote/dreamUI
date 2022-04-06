@@ -15,3 +15,27 @@
   grid-template-columns: 70% 30%;
   grid-column-gap: 5px;
 }
+
+.col-3 {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-column-gap: 5px;
+}
+
+.col-3-left-expand {
+  display: grid;
+  grid-template-columns: 3fr 1.5fr 1.5fr;
+  grid-column-gap: 5px;
+}
+
+.col-3-middle-expand {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 1.5fr;
+  grid-column-gap: 5px;
+}
+
+.col-3-right-expand {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 3fr;
+  grid-column-gap: 5px;
+}
