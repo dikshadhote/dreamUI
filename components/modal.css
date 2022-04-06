@@ -1,0 +1,6 @@
+.modal {
+  max-width: 50rem;
+  width: 60%;
+  border: 2px solid var(--persian-blue);
+  border-radius: 5px;
+}
