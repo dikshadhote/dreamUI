@@ -3,4 +3,5 @@
   width: 60%;
   border: 2px solid var(--persian-blue);
   border-radius: 5px;
+  box-shadow: 0 6px 1.25rem 0 var(--black-box-shadow);
 }
