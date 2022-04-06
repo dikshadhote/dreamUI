@@ -1,18 +1,18 @@
 .col-2 {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 3fr 3fr;
   grid-column-gap: 5px;
 }
 
 .col-2-shrink {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 2fr 4fr;
   grid-column-gap: 5px;
 }
 
 .col-2-stretch {
   display: grid;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 4fr 2fr;
   grid-column-gap: 5px;
 }
 
