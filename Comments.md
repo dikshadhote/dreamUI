@@ -18,6 +18,9 @@ dreamUI V2 with P1 features: https://dreamui-v2.netlify.app/
 
 # [Modal](https://dreamui-v2.netlify.app/documents/documents.html#modal)
 
+# [Mobile Navigation](https://dreamui-v2.netlify.app/documents/documents.html#navigation)
+- open and close drawer functionality
+
 # [Slider](https://dreamui-v2.netlify.app/documents/documents.html#slider)
 - Simple Slider
 - Slider with icon
