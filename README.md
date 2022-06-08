@@ -2,7 +2,7 @@
 A CSS component library which makes your life easy by taking care of your styling needs
 
 Live demo preview:
-https://dreamui-demo.netlify.app/
+https://dreamui-v2.netlify.app/
 
 ![image](https://user-images.githubusercontent.com/39937404/161030652-703880dd-55ce-4c7f-9661-3e358df80969.png)
 
